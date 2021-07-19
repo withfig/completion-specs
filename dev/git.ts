@@ -406,7 +406,7 @@ const head = {
   description: "Reset multiple commits",
 };
 
-export const completionSpec: Fig.Spec = {
+const completionSpec: Fig.Spec = {
   name: "git",
   description: "the stupid content tracker",
   options: [
@@ -4980,3 +4980,5 @@ export const completionSpec: Fig.Spec = {
     },
   ],
 };
+
+export default completionSpec;

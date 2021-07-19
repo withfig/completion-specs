@@ -3,7 +3,7 @@
 // Fastly CLI version 0.34.0 (472764f)
 // Built with go version go1.16.5 linux/amd64
 //
-export const completionSpec: Fig.Spec = {
+const completionSpec: Fig.Spec = {
   name: "fastly",
   description: "A CLI for interacting with the Fastly platform",
   subcommands: [
@@ -13800,3 +13800,5 @@ export const completionSpec: Fig.Spec = {
     },
   ],
 };
+
+export default completionSpec;
